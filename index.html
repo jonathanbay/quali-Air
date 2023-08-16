@@ -13,6 +13,48 @@
     />
   </head>
   <body>
+    <div class="background-layer"></div>
+
+    <div class="app-container">
+      <h1>Air Quality App</h1>
+      <div class="information-block">
+        <div class="loader active">
+          <img
+            src="ressources/biodegradable.svg"
+            alt="loader icon"
+            class="loader-logo"
+          />
+        </div>
+        <img
+          src="ressources/magnifying-glass.svg"
+          class="emoji-logo"
+          alt="feeling icon"
+        />
+        <p class="user-information">Information sur votre ville</p>
+
+        <table>
+          <tr>
+            <th class="label">Ville</th>
+            <td class="city-name">...</td>
+          </tr>
+          <tr>
+            <th class="label">Infos Pollution</th>
+            <td class="pollution-info">...</td>
+          </tr>
+          <tr>
+            <th class="label">Qualité de l'air</th>
+            <td class="poluution-value">...</td>
+          </tr>
+        </table>
+
+        <p class="scale-bar-text">Niveau de poluution :</p>
+        <img
+          src="ressources/location.svg"
+          alt="location"
+          class="location-pointer"
+        />
+      </div>
+    </div>
 
     <script src="main.js"></script>
   </body>
