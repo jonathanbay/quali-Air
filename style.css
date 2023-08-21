@@ -105,6 +105,7 @@ td {
   position: absolute;
   left: -15px;
   width: 30px;
+  margin-top: 15px;
   transform: rotate(180deg);
   transition: transform 0.4s ease-out;
 }
@@ -115,5 +116,26 @@ td {
 }
 .scale-section:not(:last-child) {
   border-right: 2px solid #f1f1f1;
+}
+.scale-section:nth-child(2) {
+  background-color: green;
+}
+.scale-section:nth-child(3) {
+  background-color: #d7d703;
+}
+
+.scale-section:nth-child(4) {
+  background-color: orange;
+}
+.scale-section:nth-child(5) {
+  background-color: red;
+}
+.scale-section:nth-child(6) {
+  flex-grow: 2;
+  background-color: purple;
+}
+.scale-section:nth-child(7) {
+  flex-grow: 4;
+  background-color: maroon;
 }
 
